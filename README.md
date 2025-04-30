@@ -1,5 +1,5 @@
-================LOST==================
-
+================We lost the flag==================
+LOST .PNG  =====> IS PROBLEM
 LOST 2.png
 
 References "file signatures" (hinting to check file headers).
