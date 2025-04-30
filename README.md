@@ -32,6 +32,7 @@ The flag suggests using file command or hex analysis (e.g., JFIF = JPEG signatur
 Next Steps:
 
 1. Extract Hidden Data
+   
 Use binwalk to check for embedded files:
 
 bash
@@ -40,11 +41,14 @@ Use foremost or dd to extract hidden files:
 
 bash
 (foremost LOST.png -o output_dir)
+
 2. Check for Steganography
+   
 Try steghide (if the file has embedded data):
 
 bash
 (steghide extract -sf LOST.png)
+
 Use stegsolve to analyze LSB (Least Significant Bit) patterns.
 
 3. Fix the File Headers
