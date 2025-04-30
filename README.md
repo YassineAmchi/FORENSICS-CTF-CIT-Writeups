@@ -59,7 +59,8 @@ If the file is a PNG, the correct header should be 89 50 4E 47.
 
 ======================================================================
 
-===============================True CTF Love===========================
+===============================True CTF Love==========================
+
 EMAIL 1.png shows an email header with a DKIM signature containing base64 encoded parts (lines 25-29).
 
 EMAIL 2.png shows operations being performed on what appears to be corrupted base64 text, with partial output that hints at the flag format.
@@ -108,7 +109,7 @@ The flag is validated as correct, and the response is marked as “Correct,” c
 
 ===========================================================================
 
-=======================Bits 'n Pieces=======================================
+=======================Bits 'n Pieces======================================
 
 Bits 'n Pieces1.PNG
 
