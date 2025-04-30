@@ -1,4 +1,4 @@
-================We lost the flag======================================================================================
+================We lost the flag==============================
 
 LOST .PNG  =====> IS PROBLEM
 
@@ -57,10 +57,9 @@ Change FF DB FF E8 → FF D8 FF E0 (standard JPEG header) using a hex editor (e.
 
 If the file is a PNG, the correct header should be 89 50 4E 47.
 
-===========================================================================================================================================================================
+======================================================================
 
-===============================True CTF Love======================================
-
+===============================True CTF Love===========================
 EMAIL 1.png shows an email header with a DKIM signature containing base64 encoded parts (lines 25-29).
 
 EMAIL 2.png shows operations being performed on what appears to be corrupted base64 text, with partial output that hints at the flag format.
@@ -83,9 +82,9 @@ it gets me wondering... do you love CTFs as much as they do?
 
 CTF{1_l0v3_ctf$_t00}
 
-==========================================================================================================================================================================
+========================================================================
 
-==================================Brainrot Quiz!==================================================
+==================================Brainrot Quiz!========================
 
 PACAP 1.PNG
 
@@ -107,9 +106,9 @@ The decoded flag (CIT{tr4l413r0_tr4l414}) is submitted in a quiz interface calle
 
 The flag is validated as correct, and the response is marked as “Correct,” confirming successful completion of the challenge.
 
-==========================================================================================================================================================================
+===========================================================================
 
-=======================Bits 'n Pieces===================================================
+=======================Bits 'n Pieces=======================================
 
 Bits 'n Pieces1.PNG
 
@@ -125,13 +124,11 @@ A Windows command prompt displays the flag: CIT{c4ch3_m3_if_y0u_c4n}.
 
 The reference to "cache" in the flag and browser-related activities suggests a challenge involving browser cache analysis.
 
-==========================================================================================================================================================================
+===========================================================================
 
-============================baller.zip==========================================================0
+============================baller.zip======================================
 
-Command Used:
-
-binwalk --dd='.*' baller.zip
+Command Used: ===>>>  binwalk --dd='.*' baller.zip
 
 This command analyzes the file baller.zip using the binwalk tool, extracting all detected data with the --dd='.*' option.
 
